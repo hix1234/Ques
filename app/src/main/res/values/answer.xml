@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ans">
+        <item>Moore’s First Law </item>
+        <item>Internal hard disk</item>
+        <item>Program</item>
+        <item>Charles Babbage</item>
+        <item>5</item>
+        <item>Hypertext Transfer Protocol</item>
+        <item>Compression</item>
+        <item>Buying and selling products and services over the Internet</item>
+        <item>Random access memory</item>
+        <item>Bits per second</item>
+    </string-array>
+</resources>

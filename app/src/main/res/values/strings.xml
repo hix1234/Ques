@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ques</string>
+    // Activity: main
+    <string name="text1">Star</string>
+    <string name="text2">About App</string>
+    // Activity: Page1
+    <string name="text3">yy</string>
+    <string name="text5">Question</string>
+    <string name="text4">xx/</string>
+    <string name="text6"> "Press the light button for answer"</string>
+</resources>

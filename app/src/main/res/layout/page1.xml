@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Page1"
+    tools:ignore="ExtraText">
+
+    // this is the part1
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@color/top_bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv2_page1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text3"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv1_page1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text4"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    // this is the part2
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@color/mid"
+        android:padding="7dp"
+        tools:ignore="RtlHardcoded">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:id="@+id/b1_page1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/state_mute" />
+
+                <TextView
+                    android:text="@string/text5"
+                    android:id="@+id/tv3_page1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    // this is the part3
+    <LinearLayout
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:background="@color/mid"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/text6"
+                    android:id="@+id/tv4_page1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    // this is the part4
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"
+        android:background="@color/top_bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="ButtonAction"
+            android:id="@+id/b2_page1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/state_next"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:onClick="ButtonAction"
+            android:id="@+id/b3_page1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/state_light_bulb"
+            tools:ignore="ButtonStyle,OnClick" />
+
+        <Button
+            android:onClick="ButtonAction"
+            android:id="@+id/b4_page1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/state_back"
+            tools:ignore="ButtonStyle,OnClick" />
+    </LinearLayout>
+
+</LinearLayout>

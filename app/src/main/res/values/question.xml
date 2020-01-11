@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ques">
+        <item>The improvement of computer hardware theory is summarized by which law?</item>
+        <item>what is The most widely used computer device ?</item>
+        <item>which is software are used to do particular task?</item>
+        <item>Who is father of modern computers?</item>
+        <item>How many generations of computers we have?</item>
+        <item>What does HTTP stands for?</item>
+        <item>What type of software creates a smaller file that is faster to transfer over the Internet?</item>
+        <item>What is e-commerce?</item>
+        <item>RAM stands for?</item>
+        <item>What is the commonly used unit for measuring the sped of data transmission?</item>
+    </string-array>
+</resources>
